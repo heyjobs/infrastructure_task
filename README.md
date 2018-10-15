@@ -44,7 +44,8 @@ The configuration of the S3 bucket is done with variables in /tf/produciton/terr
 
 #### Setup
 ```shell
-$ cd ansible/
+$ git clone git@github.com:heyjobs/infrastructure_task.git
+$ cd infrastructure_task/ansible/
 $ ansible-playbook site.yml 
 
 PLAY [setup our AWS users accounts] ******************************************************************************************************************
