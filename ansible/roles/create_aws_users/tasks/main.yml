@@ -1,0 +1,10 @@
+---
+# tasks file for roles/create_aws_users
+
+- name: Create developers accounts, adding to the PowerUsers group
+  iam:
+    iam_type: user
+    name: "{{ item }}"
+    state: present
+    groups: PowerUsers
+  loop: "{{ developer_accounts }}"

@@ -1,0 +1,7 @@
+---
+    - name: setup our AWS users accounts
+      hosts: localhost
+      
+      roles:
+          - create_aws_users
+      
