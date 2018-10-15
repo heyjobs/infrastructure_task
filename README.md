@@ -9,7 +9,7 @@ Neu-Automat Berlin is a one year old startup that runs a network of cafeterias i
 
 Being a startup, Neu-Automat are developing new product features as a priority.  However they recently had a major incident where all vending machine prices were set to €0.50 for all products. 
 
-They realised that the product pricing is set using an XML file, which is uploaded to an S3 bucket which each vending machine app downloads once per day. A junior developer was testing dynamic pricing functionality and managed to over-write the production XML file by accident.
+They realised that the product pricing is set using an XML file, which is uploaded to an S3 bucket which each vending machine downloads once per day. A junior developer was testing dynamic pricing functionality and managed to over-write the production XML file by accident.
 
 ## Challenge
 It was discovered that there is an S3 bucket (dev-xml-transfer) which all users in the AWS account have read-write access to.   The challenge is to improve the current infrastructure setup to prevent a repeat of the accident.
