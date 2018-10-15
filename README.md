@@ -9,3 +9,4 @@ You can read more about this approach in the [AWS documentation](https://docs.aw
 2. Add a bastion host in Admin Account, which will allow IAM users to connect to resources within private subnets in Production and Staging AWS accounts.
 3. **Note** Don't fork this repository. Create you own repository and send us a link to it. You may describe some of the assumptions you had in the README file of your repository.
 
+
