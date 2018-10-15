@@ -64,7 +64,7 @@ changed: [localhost] => (item=jnr_dev_q)
 PLAY RECAP *******************************************************************************************************************************************
 localhost                  : ok=1    changed=1    unreachable=0    failed=0   
 
-camus:ansible doug$ aws iam list-users
+$ aws iam list-users
 {
     "Users": [
         {
