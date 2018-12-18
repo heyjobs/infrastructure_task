@@ -230,7 +230,7 @@ module.create_s3_bucket.aws_s3_bucket.created_bucket: Creation complete after 6s
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 $
-$ aws s3api get-bucket-location --bucket dev-xml-transfer
+$ aws s3 get-bucket-location --bucket dev-xml-transfer
 {
     "LocationConstraint": "eu-west-1"
 }
