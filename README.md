@@ -70,16 +70,9 @@ $ aws iam list-users
     "Users": [
         {
             "Path": "/",
-            "UserName": "circleci_beanstalk_deploy_user",
-            "UserId": "AIDAJA4LQC7PBR74J7CSA",
-            "Arn": "arn:aws:iam::533655792172:user/circleci_beanstalk_deploy_user",
-            "CreateDate": "2018-10-13T17:06:03Z"
-        },
-        {
-            "Path": "/",
-            "UserName": "doug",
+            "UserName": "ansible",
             "UserId": "AIDAIJ7UQI5OKTHVEHIPW",
-            "Arn": "arn:aws:iam::533655792172:user/doug",
+            "Arn": "arn:aws:iam::533655792172:user/ansible",
             "CreateDate": "2018-10-04T15:07:12Z"
         },
         {
